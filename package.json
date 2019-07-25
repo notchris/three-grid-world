@@ -1,14 +1,24 @@
 {
-  "name": "iso",
+  "name": "three-grid-world",
   "version": "0.1.0",
+  "author": "notchris <mail@chrismcgrane.com>",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@hscmap/vue-window": "^2.4.2",
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "orbit-controls-es6": "^2.0.0",
+    "raycaster-contains": "^1.0.3",
+    "three": "^0.106.2",
+    "three-fly-controls": "^1.1.0",
+    "three-transform-ctrls": "^1.0.1",
+    "vue": "^2.6.10",
+    "vue-gl": "^0.15.0",
+    "vue-numeric-input": "^1.0.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
